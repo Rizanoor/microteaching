@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title')
-    Categories
+    Edit Judul
 @endsection
 
 @section('content')
@@ -11,7 +11,8 @@ data-aos="fade-up"
 >
 <div class="container-fluid">
     <div class="dashboard-heading pb-5">
-        <h2 class="dashboard-title pt-3">Category</h2> Edit Category
+        <h2 class="dashboard-title pt-3">Judul
+        </h2> Edit Judul
         <p class="dashboard-subtitle badge bg-warning">
              "{{ $item->name }}"
         </p>
@@ -35,7 +36,7 @@ data-aos="fade-up"
                           <div class="row">
                             <div class="col md-12">
                               <div class="form-group">
-                                <label class="mb-1">Nama Kategori</label>
+                                <label class="mb-1">Nama Judul</label>
                                 <input type="text" name="name" class="form-control" value="{{ $item->name }}" required>
                               </div>
                             </div>

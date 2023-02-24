@@ -1,16 +1,16 @@
 @extends('layouts.admin')
 
 @section('title')
-    Categories
+    Judul
 @endsection
 
 @section('content')
     <div class="section-content section-dashboard-home" data-aos="fade-up">
         <div class="container-fluid">
             <div class="dashboard-heading pb-5">
-                <h2 class="dashboard-title">Category</h2>
+                <h2 class="dashboard-title">Judul</h2>
                 <p class="dashboard-subtitle">
-                    List of Categories
+                    Berikut ini judul presentasi yang sudah dibuat. <br> Setiap judul memuat beberapa gambar dalam format. <br> <span class= "badge bg-danger">jpg</span> yang dapat diunggah melalui menu <strong>'Konten Presentasi'</strong>.
                 </p>
             </div>
             <div class="dashboard-content">
@@ -18,14 +18,14 @@
                     <div class="col-md-12">
                         <div class="card-body">
                             <a href="{{ route('category.create') }}" class="btn btn-primary mb-3">
-                                + Tambah Kategori Baru
+                                + Tambah Judul Baru
                             </a>
                             <div class="table-responsive">
                                 <table class="table table-hover scroll-horizontal-vertical w-100" id="crudTable">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
-                                            <th>Nama</th>
+                                            <th>Nama Judul</th>
                                             <th>Slug</th>
                                             <th>Aksi</th>
                                         </tr>

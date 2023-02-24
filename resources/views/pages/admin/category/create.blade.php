@@ -1,16 +1,16 @@
 @extends('layouts.admin')
 
 @section('title')
-    Categories
+    Create Judul
 @endsection
 
 @section('content')
     <div class="section-content section-dashboard-home" data-aos="fade-up">
         <div class="container-fluid">
             <div class="dashboard-heading pb-5">
-                <h2 class="dashboard-title">Category</h2>
+                <h2 class="dashboard-title">Judul</h2>
                 <p class="dashboard-subtitle">
-                    Create New Category
+                    Create New Judul
                 </p>
             </div>
             <div class="dashboard-content">
@@ -31,7 +31,7 @@
                                 <div class="row">
                                     <div class="col md-12">
                                         <div class="form-group">
-                                            <label class="mb-1">Nama Kategori</label>
+                                            <label class="mb-1">Nama Judul</label>
                                             <input type="text" name="name" class="form-control" required>
                                         </div>
                                     </div>

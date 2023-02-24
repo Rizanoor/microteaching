@@ -24,7 +24,7 @@
             <div class="product-card">
                 <div class="product-detail pt-3">
                     <div>
-                        <p class="title-detail">Jumlah Category</p>
+                        <p class="title-detail">Jumlah Judul</p>
                     </div>
                 </div>
                 <div class="product-detail pt-4">
