@@ -12,7 +12,7 @@
             <div class="product-card">
                 <div class="product-detail pt-3">
                     <div>
-                        <p class="title-detail">Jumlah Gallery</p>
+                        <p class="title-detail">Jumlah Konten Presentasi</p>
                     </div>
                 </div>
                 <div class="product-detail pt-4">

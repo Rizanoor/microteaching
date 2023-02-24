@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title')
-    Galleries
+    Create Konten Presentasi
 @endsection
 
 @section('content')
@@ -9,9 +9,9 @@
     <div class="section-content section-dashboard-home" data-aos="fade-up">
         <div class="container-fluid">
             <div class="dashboard-heading mb-5">
-                <h2 class="dashboard-title">Gallery</h2>
+                <h2 class="dashboard-title">Konten Presentasi</h2>
                 <p class="dashboard-subtitle">
-                    Create New Gallery
+                    Create New Konten Presentasi
                 </p>
             </div>
             <div class="dashboard-content">
@@ -32,7 +32,7 @@
                                 <div class="row">
                                     <div class="col md-12">
                                         <div class="form-group">
-                                            <label class="mb-1">My Category</label>
+                                            <label class="mb-1">Nama Judul</label>
                                             <select name="categories_id" class="form-control">
                                                 @foreach ($categories as $category)
                                                     <option value="{{ $category->id }}">{{ $category->name }}</option>
@@ -40,7 +40,7 @@
                                             </select>
                                         </div>
                                         <div class="form-group mt-2">
-                                            <label class="mb-1">Gallery</label>
+                                            <label class="mb-1">Konten Presentasi</label>
                                             <input type="file" name="photos" class="form-control" required>
                                         </div>
                                     </div>

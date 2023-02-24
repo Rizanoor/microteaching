@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title')
-    Galleries
+    Konten Presentasi
 @endsection
 
 @section('content')
@@ -12,9 +12,9 @@
     >
     <div class="container-fluid">
         <div class="dashboard-heading mb-5">
-            <h2 class="dashboard-title">Gallery</h2>
+            <h2 class="dashboard-title">Konten Presentasi</h2>
             <p class="dashboard-subtitle">
-                List of Gallery
+                List of Konten Presentasi
             </p>
         </div>
         <div class="dashboard-content">
@@ -22,14 +22,13 @@
                 <div class="col-md-12">
                         <div class="card-body">
                             <a href="{{  route('gallery.create') }}" class="btn btn-primary mb-3">
-                                + Tambah Gallery
+                                + Tambah Konten Presentasi
                             </a>
                             <div class="table-responsive">
                                 <table class="table table-hover scroll-horizontal-vertical w-100" id="crudTable">
                                     <thead>
                                     <tr>
                                         <th>ID</th>
-                                        {{-- <th>Category</th> --}}
                                         <th>Foto</th>
                                         <th>Aksi</th>
                                     </tr>
