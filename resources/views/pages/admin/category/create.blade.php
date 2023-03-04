@@ -37,6 +37,15 @@
                                     </div>
                                 </div>
                                 <div class="row">
+                                    <div class="col md-12">
+                                        <div class="form-group">
+                                            <label class="mt-2">Kode <small class="badge bg-danger mb-2">min: 5 character</small></label>
+                                            <input type="text" name="code" class="form-control" required style="text-transform: uppercase">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
                                     <div class="col text-right">
                                         <button type="submit" class="btn btn-success mt-3 px-5">
                                             Save Now</button>
