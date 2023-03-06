@@ -25,7 +25,7 @@ class GalleryRequest extends FormRequest
     {
         return [
             'categories_id' => 'required|exists:categories,id',
-            'photos' => 'required|image'
+            'photos' => 'required|image|mimes:png|dimensions:max_width=1920,max_height=1080'
         ];
     }
 }

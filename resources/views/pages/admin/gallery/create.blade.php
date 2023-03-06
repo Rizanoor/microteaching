@@ -40,7 +40,7 @@
                                             </select>
                                         </div>
                                         <div class="form-group mt-2">
-                                            <label class="mb-1">Konten Presentasi</label>
+                                            <label class="mb-1">Konten Presentasi <small class="badge bg-danger mb-2">max: 1920 x 1080 | png</small></label>
                                             <input type="file" name="photos" class="form-control" required>
                                         </div>
                                     </div>
