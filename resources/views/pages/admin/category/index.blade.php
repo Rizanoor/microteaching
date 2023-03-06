@@ -26,6 +26,7 @@
                                         <tr>
                                             <th>ID</th>
                                             <th>Nama Judul</th>
+                                            <th>Kode</th>
                                             <th>Slug</th>
                                             <th>Aksi</th>
                                         </tr>
@@ -63,7 +64,10 @@
                     data: 'name',
                     name: 'name'
                 },
-                // { data: 'photo', name: 'photo' },
+                {
+                    data: 'code',
+                    name: 'code'
+                },
                 {
                     data: 'slug',
                     name: 'slug'

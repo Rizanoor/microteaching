@@ -27,6 +27,7 @@ class CategoryRequest extends FormRequest
             'name'=> 'required|string',
             'photo' => 'image',
             'description' => 'string',
+            'code' => 'required|string|max:5|unique:categories,code,' . $this->id . ',id',
         ];
     }
 }

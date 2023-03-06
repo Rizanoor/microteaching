@@ -13,8 +13,9 @@ class ProductController extends Controller
     {
         $id = $request->input('id');
         $limit = $request->input('limit', 6);
-        $name = $request->input('id');
+        $name = $request->input('name');
         $categories = $request->input('categories');
+        $code = $request->input('code');
 
 
         // mengambil data secara individual atau berdasarkan id
@@ -37,6 +38,12 @@ class ProductController extends Controller
         if ($name) {
             // mencari nama berdasarkan sebagian text
             $product->where('name', 'like', '%' . $name . '%');
+        }
+
+        // filtering
+        if ($code) {
+            // mencari nama berdasarkan sebagian text
+            $product->where('code', 'like', '%' . $code . '%');
         }
 
 
